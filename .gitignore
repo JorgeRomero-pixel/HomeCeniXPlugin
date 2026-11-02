@@ -1,0 +1,11 @@
+.gradle/
+build/
+bin/
+.settings/
+.classpath
+.project
+
+firestore-debug.log
+
+# Firebase credentials: never commit these
+*service-account*.json

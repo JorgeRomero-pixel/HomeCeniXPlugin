@@ -1,0 +1,12 @@
+name: HomeCeniXPlugin
+version: '${version}'
+main: com.jorge.homecenix.HomeCeniXPlugin
+description: Casas personales guardadas en Firebase
+api-version: '26.3'
+commands:
+  sethome:
+    description: Guarda tu posición actual como casa
+    usage: /sethome <nombre>
+  home:
+    description: Te teletransporta a una de tus casas
+    usage: /home <nombre>
